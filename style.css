@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+html body{
+    width: 100vw;
+    height: 100vh;
+}
+body #main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: linear-gradient( rgb(212, 23, 23) ,rgb(187, 127, 16),rgb(7, 188, 7) ,rgb(172, 172, 12),rgb(139, 15, 36),rgb(4, 98, 136) ,brown,rgb(31, 31, 183),purple);
+}
+#main #img1{
+    width: 15%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 4vw;
+    position: absolute;
+    left: 70vw;
+    top: 10vw;
+}
+#img1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4vw;
+}
+#main #imge2{
+    width: 15%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 4vw;
+    position: absolute;
+    left: 53vw;
+    top: 10vw;
+}
+#imge2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4vw;
+}
+#main #img3{
+    width: 15%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 4vw;
+    position: absolute;
+    left: 36vw;
+    top: 10vw;
+}
+#img3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4vw;
+}
+#main #img4{
+    width: 15%;
+    height: 30%;
+    background-color: aqua;
+    border-radius: 4vw;
+    position: absolute;
+    left: 19vw;
+    top: 10vw;
+}
+#img4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4vw;
+}
+#main button {
+    position: absolute;
+    top: 28vw;
+    left: 58vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 1.2vw;
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 1vw 1vw 1vw rgb(15, 15, 29);
+    border: 0;
+}
+#main #red{
+    position: absolute;
+    top: 28vw;
+    left: 40vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 1vw 1vw 1vw rgb(15, 15, 29);
+}
